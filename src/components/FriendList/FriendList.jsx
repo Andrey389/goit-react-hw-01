@@ -1,12 +1,12 @@
-import FriendItem from './FriendItem';
+import FriendListItem from './FriendListItem';
 
 export default function FriendList({ friends }) {
-  //   console.log(friends);
+  console.log(friends);
   return (
     <ul>
       {friends.map(friend => (
         <li key={friend.id}>
-          <FriendItem friends={friends} />
+          <FriendListItem friends={friends} />
         </li>
       ))}
     </ul>
