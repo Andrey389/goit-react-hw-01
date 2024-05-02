@@ -1,0 +1,13 @@
+.tableTitle {
+  text-align: center;
+  width: 200px;
+  border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+  background-color: lightblue;
+}
