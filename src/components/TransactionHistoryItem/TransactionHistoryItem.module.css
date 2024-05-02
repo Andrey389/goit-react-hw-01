@@ -11,3 +11,7 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: lightblue;
 }
+
+td:first-child {
+  text-transform: capitalize;
+}
