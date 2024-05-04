@@ -10,7 +10,13 @@ import transactions from '../transactions.json';
 export default function App() {
   return (
     <>
-      <Profile props={userData} />
+      <Profile
+        username={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        avatar={userData.avatar}
+        stats={userData.stats}
+      />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </>
